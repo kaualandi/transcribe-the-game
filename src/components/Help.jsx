@@ -10,7 +10,7 @@ let Help = () => {
                 <h2>Instruções</h2>
                 <p>Serão sorteadas 10 das {Data.length} frases disponíveis</p>
                 <p>O objetivo do jogo é traduzir as frases que aparecem na tela.</p>
-                <p>Para cada frase que você acertar, você ganha um ponto.</p>
+                <p>Para cada frase que você acertar, você ganha dez pontos.</p>
                 <p>Para cada frase que você errar, você perde uma vida.</p>
                 <p>Se você perder todas as vidas, você perde o jogo.</p>
                 <p>Se você acertar todas as frases, você ganha o jogo.</p>
