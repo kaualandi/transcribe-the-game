@@ -1,11 +1,10 @@
 import React, {useState} from 'react';
-import Data from './../Data';
 import Win from './Win';
 import Lose from './Lose';
 import Heart from './Icons';
 import './Play.css';
 
-let Play = (randomArr) => {
+let Play = ({dados}) => {
     const [level, setLevel] = useState(0);
     const [life, setLife] = useState(3);
     const [score, setScore] = useState(0);
@@ -20,7 +19,7 @@ let Play = (randomArr) => {
         }
     }
     const verify = () => {
-        if ((textareaValue.trim()).toUpperCase() === (Data[level].portugues.trim()).toUpperCase()) {
+        if ((textareaValue.trim()).toUpperCase() === (dados[level].portugues.trim()).toUpperCase()) {
             setScore(score + 10);
             nextLevel();
         } else {
@@ -45,7 +44,7 @@ let Play = (randomArr) => {
         return (
             <Lose score={score} />
         );
-    } else if (Data.length === level) {
+    } else if (dados.length === level) {
         return (
             <Win score={score} />
         );
@@ -61,10 +60,10 @@ let Play = (randomArr) => {
                     </div>
                     <div className="play-container-body">
                         <div className="traduza">
-                            <h3>Traduza: {Data[level].ingles}</h3>
+                            <h3>Traduza: {dados[level].ingles}</h3>
                         </div>
                         <div className="campo">
-                            <textarea onChange={handleTextArea} value={textareaValue} placeholder={Data[level].ingles}></textarea>
+                            <textarea onChange={handleTextArea} value={textareaValue} placeholder={dados[level].ingles}></textarea>
                         </div>
                         <div className="actions">
                             <button onClick={skipLevel}>Pular</button>
