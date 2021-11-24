@@ -19,7 +19,7 @@ let Play = ({dados}) => {
         }
     }
     const verify = () => {
-        if ((textareaValue.trim()).toUpperCase() === (dados[level].portugues.trim()).toUpperCase()) {
+        if (((textareaValue.trim()).toUpperCase()).indexOf((dados[level].portugues.trim()).toUpperCase()) > -1 ) {
             setScore(score + 10);
             nextLevel();
         } else {
