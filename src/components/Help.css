@@ -8,3 +8,35 @@
     text-align: center;
     height: calc(100% - 98px);
 }
+.help a {
+    cursor: url('./../cursors/pointer.cur'), pointer;
+}
+.help p, .help .btn {
+    font-size: 1.2rem;
+    color: #666;
+    background: transparent;
+    border: none;
+}
+.help .btn {
+    font-size: 1.2rem;
+    color: #333;
+    background: transparent;
+    border: 2px solid #333;
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    margin: .5rem;
+    cursor: url('./../cursors/pointer.cur'), pointer;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+.help .btn:hover, .help .btn:focus, .help .btn.btn-primary:hover,.help .btn.btn-primary:focus {
+    border-radius: 0;
+    background: #333;
+    color: aliceblue;
+    border-color: #333;
+}
+.help .btn.btn-primary {
+    color: aliceblue;
+    background: #c5013c;
+    border: 2px solid #AB0234;
+}

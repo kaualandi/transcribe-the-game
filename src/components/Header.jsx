@@ -6,7 +6,7 @@ let Header = () => {
     return (
         <div className="header">
             <h1>Transcribe The Game</h1>
-            <button><BiHelpCircle/></button>
+            <a href="/help"><BiHelpCircle/></a>
         </div>
     );
 };

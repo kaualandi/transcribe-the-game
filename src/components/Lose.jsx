@@ -6,7 +6,8 @@ let Lose = ({score}) => {
         <div className="lose">
             <div className="thx">
                 <h1>Sinto muito!</h1>
-                <p>Você errou muitas vezes</p>
+                <p>Você errou muitas vezes!</p>
+                <p>Obrigado por jogar.</p>
             </div>
             <div className="score">
                 <h1>Pontuação: {score}<span className="small">/100</span></h1>

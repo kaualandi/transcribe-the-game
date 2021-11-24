@@ -15,10 +15,10 @@ let Help = () => {
             </div>
             <div className="dev-notes">
                 <h2>Notas de desenvolvimento</h2>
-                <p>Agradeço por jogar meu jogo.</p>
-                <p>O jogo foi desenvolvido por <a href="https://kaualf.netlify.app">Kauã Landi</a>, utilizando o React.js.</p>
-                <p>O código fonte do jogo está disponível em <a href="#">GitHub</a>.</p>
+                <p>O jogo foi desenvolvido por <a href="https://kaualf.netlify.app">Kauã Landi</a>, utilizando React.js.</p>
+                <p>O código fonte do jogo está disponível em <a href="https://github.com/kaualandi/transcribe-the-game">GitHub</a>.</p>
             </div>
+            <a href="/" className="btn btn-primary">Início</a>
         </div>
     );
 }

@@ -7,7 +7,7 @@
     border-bottom: 1px solid #AB0234;
     color: aliceblue;
 }
-.header button {
+.header a {
     border: 0;
     background-color: transparent;
     color: aliceblue;
@@ -17,6 +17,6 @@
     transition: color .3s ease-in-out;
     cursor: url('./../cursors/pointer.cur'), pointer;
 }
-.header button:hover{
+.header a:hover{
     color: #450115;
 }
