@@ -9,14 +9,14 @@
     height: calc(100% - 98px);
 }
 .home h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: bold;
     color: #333;
     margin-bottom: 1rem;
     text-align: center;
 }
 .home p, .home button {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #666;
     background: transparent;
     border: none;
