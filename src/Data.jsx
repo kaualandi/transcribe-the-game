@@ -1,55 +1,154 @@
 let Data = [
     {
-        ingles: "I'm sad",
-        portugues: "Eu estou triste"
+        ingles: "How old are you?",
+        portugues: "Qual é a sua idade?"
     },
     {
-        ingles: "Life is better when we smile",
-        portugues: "A vida é melhor quando sorrimos"
+        ingles: "I am cold.",
+        portugues: "Estou com frio."
     },
     {
         ingles: "Just do it",
         portugues: "Apenas faça"
     },
     {
-        ingles: "Temporary people, temporary feelings",
-        portugues: "Pessoas temporárias, sentimentos temporários"
+        ingles: "I am hot.",
+        portugues: "Eu estou com calor."
     },
     {
-        ingles: "Whatever is good for your soul, do that",
-        portugues: "O que for bom para sua alma, faça isso"
+        ingles: "I am thirsty!",
+        portugues: "Estou com sede!"
     },
     {
-        ingles: "I don’t need your approval to be me",
-        portugues: "Não preciso da sua aprovação para ser eu"
+        ingles: "I am hungry!",
+        portugues: "Estou com fome!"
     },
     {
-        ingles: "Dream without fear, love without limits",
-        portugues: "Sonhe sem medo, ame sem limites"
+        ingles: "What time is it?",
+        portugues: "Que horas são?"
     },
-
     {
-        ingles: "One bad chapter doesn’t mean your story is over",
-        portugues: "Um capítulo ruim não significa que a sua história acabou"
+        ingles: "Nice to meet you too.",
+        portugues: "O prazer é meu."
     },
     {
         ingles: "Enjoy the little things",
         portugues: "Aproveite as pequenas coisas"
     },
     {
-        ingles: "Soul over ego",
-        portugues: "Alma acima do ego"
+        ingles: "Nice to meet you!",
+        portugues: "Prazer em te conhecer!"
     },
     {
-        ingles: "Live, laugh, love",
-        portugues: "Viva, ria, ame"
+        ingles: "I am fine, and you?",
+        portugues: "Eu estou bem, e você?"
     },
     {
-        ingles: "A joy shared is a joy doubled",
-        portugues: "Uma alegria compartilhada é uma alegria duplicada"
+        ingles: "My name is Jake.",
+        portugues: "Meu nome é Jake."
     },
     {
-        ingles: "Forever is composed of nows",
-        portugues: "Para sempre é feito de agoras"
+        ingles: "What is your name?",
+        portugues: "Qual é o seu nome?"
+    },
+    {
+        ingles: "Where are you from?",
+        portugues: "De onde você é?"
+    },
+    {
+        ingles: "I'm from Brazil.",
+        portugues: "Eu sou do Brasil."
+    },
+    {
+        ingles: "Please.",
+        portugues: "Por favor."
+    },
+    {
+        ingles: "Excuse me.",
+        portugues: "Com licença."
+    },
+    {
+        ingles: "Have a nice weekend.",
+        portugues: "Tenha um bom final de semana."
+    },
+    {
+        ingles: "What do you do? I am a lawyer.",
+        portugues: "Qual é a sua profissão? Eu sou advogado."
+    },
+    {
+        ingles: "Do you have any children?",
+        portugues: "Você tem filhos?"
+    },
+    {
+        ingles: "I'm late.",
+        portugues: "Estou atrasado."
+    },
+    {
+        ingles: "I'm sorry I'm late.",
+        portugues: "Desculpe o atraso."
+    },
+    {
+        ingles: "Can you help me?",
+        portugues: "Você pode me ajudar?"
+    },
+    {
+        ingles: "I love you.",
+        portugues: "Eu te amo."
+    },
+    {
+        ingles: "I need.",
+        portugues: "Eu preciso."
+    },
+    {
+        ingles: "I want.",
+        portugues: "Eu quero."
+    },
+    {
+        ingles: "Where is the restroom?",
+        portugues: "Onde é o banheiro?"
+    },
+    {
+        ingles: "I like ice cream.",
+        portugues: "Eu gosto de sorvete."
+    },
+    {
+        ingles: "I like you.",
+        portugues: "Eu gosto de você. "
+    },
+    {
+        ingles: "Stop. Don't go. Stay here.",
+        portugues: "Pare. Não vá. Fique aqui."
+    },
+    {
+        ingles: "Be careful. It's dangerous.",
+        portugues: "Tenha cuidado. É perigoso."
+    },
+    {
+        ingles: "Are you OK?",
+        portugues: "Está tudo bem com você?"
+    },
+    {
+        ingles: "Good luck.",
+        portugues: "Boa sorte."
+    },
+    {
+        ingles: "When is your birthday?",
+        portugues: "Quando é o seu aniversário?"
+    },
+    {
+        ingles: "Enjoy your meal!",
+        portugues: "Bom apetite!"
+    },
+    {
+        ingles: "Have fun!",
+        portugues: "Divirta-se!"
+    },
+    {
+        ingles: "Let's go. It's time.",
+        portugues: "Vamos. Está na hora."
+    },
+    {
+        ingles: "Don't speak loudly.",
+        portugues: "Não fale alto."
     },
 ]; export default Data;

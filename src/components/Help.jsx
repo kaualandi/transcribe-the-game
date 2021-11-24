@@ -1,4 +1,5 @@
 import React from 'react';
+import Data from './../Data';
 import './Help.css';
 
 let Help = () => {
@@ -7,6 +8,7 @@ let Help = () => {
             <h1>Ajuda</h1>
             <div className="instructions">
                 <h2>Instruções</h2>
+                <p>Serão sorteadas 10 das {Data.length} frases disponíveis</p>
                 <p>O objetivo do jogo é traduzir as frases que aparecem na tela.</p>
                 <p>Para cada frase que você acertar, você ganha um ponto.</p>
                 <p>Para cada frase que você errar, você perde uma vida.</p>

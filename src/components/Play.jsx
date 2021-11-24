@@ -41,14 +41,17 @@ let Play = ({dados}) => {
         nextLevel();
     }
     if (life < 0) {
+        window.navigator.vibrate(300);
         return (
             <Lose score={score} />
-        );
-    } else if (dados.length === level) {
+            );
+        } else if (dados.length === level) {
+        window.navigator.vibrate(100);
         return (
             <Win score={score} />
-        );
-    } else {
+            );
+        } else {
+        window.navigator.vibrate(50);
         return (
             <div className="play">
                 <div className="play-container">
