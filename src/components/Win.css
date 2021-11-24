@@ -1,0 +1,43 @@
+.win {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 3.5rem 2rem;
+    text-align: center;
+    height: calc(100% - 98px);
+}
+.small {
+    font-size: .65em;
+}
+.win p, .win button {
+    font-size: 1.5rem;
+    color: #666;
+    background: transparent;
+    border: none;
+}
+
+.win .buttons .btn {
+    font-size: 1.2rem;
+    color: #333;
+    background: transparent;
+    border: 2px solid #333;
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    margin: .5rem;
+    cursor: url('./../cursors/pointer.cur'), pointer;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+.win .buttons .btn:hover, .win .buttons .btn:focus, .win .buttons .btn.btn-primary:hover,.win .buttons .btn.btn-primary:focus {
+    border-radius: 0;
+    background: #333;
+    color: aliceblue;
+    border-color: #333;
+}
+.win .buttons .btn.btn-primary {
+    color: aliceblue;
+    background: #c5013c;
+    border: 2px solid #AB0234;
+}

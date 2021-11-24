@@ -1,0 +1,78 @@
+.play {
+    background: aliceblue;
+    height: calc(100% - 98px);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.play .play-container {
+    width: 100%;
+}
+.play .play-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.play .play-container-header .lifes {
+    display: flex;
+    align-items: center;
+}
+.play .play-container-header .lifes svg+svg {
+    margin-left: 0.5rem;
+}
+.play .play-container-body .traduza {
+    margin-bottom: 1rem;
+}
+.play .play-container-body .campo textarea {
+    width: 100%;
+    height: 8rem;
+    border: none;
+    border: 2px solid transparent;
+    border-bottom-color: #ccc;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    transition: 0.3s;
+    cursor: url('./../cursors/pointer.cur'), pointer;
+    resize: none;
+}
+.play .play-container-body .campo textarea:hover {
+    outline: none;
+    border-bottom-color: #c5013c;
+}
+.play .play-container-body .campo textarea:focus {
+    outline: none;
+    border-color: #c5013c;
+}
+.play .play-container-body .actions {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.play .play-container-body .actions button {
+    background: #fff;
+    border: none;
+    border: 2px solid transparent;
+    border-bottom-color: #ccc;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    transition: 0.3s;
+    cursor: url('./../cursors/pointer.cur'), pointer;
+}
+.play .play-container-body .actions button+button {
+    margin-left: 1rem;
+}
+.play .play-container-body .actions button:hover {
+    outline: none;
+    border-bottom-color: #c5013c;
+}
+.play .play-container-body .actions button:focus {
+    outline: none;
+    border-color: #c5013c;
+}
