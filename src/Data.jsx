@@ -48,4 +48,8 @@ let Data = [
         ingles: "A joy shared is a joy doubled",
         portugues: "Uma alegria compartilhada é uma alegria duplicada"
     },
+    {
+        ingles: "Forever is composed of nows",
+        portugues: "Para sempre é feito de agoras"
+    },
 ]; export default Data;
