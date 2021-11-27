@@ -13,7 +13,7 @@ let Data = [
     },
     {
         ingles: "I am hot",
-        portugues: "Eu estou com calor"
+        portugues: "Estou com calor"
     },
     {
         ingles: "I am thirsty",
